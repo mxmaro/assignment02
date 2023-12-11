@@ -10,14 +10,14 @@ body {
 
 
 header {
-    background-color: #A60640;
+    background-color: #13678A;
     color: white;
     padding: 10px;
     text-align: center;
 }
 
 nav {
-    background-color: #D22E45;
+    background-color: #138A7C;
 }
 
 nav ul {
@@ -40,15 +40,15 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #F28323; /* Change background color on hover */
+    background-color: #45C4B0; /* Change background color on hover */
 }
 
 nav a.current {
-    background-color: #F28323; /* Style for the current page */
+    background-color: #45C4B0; /* Style for the current page */
 }
 
 .hero-image {
-    background-image: url("images/heroimage.jpeg"); 
+    background-image: url("../images/heroimagebg.png"); 
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,11 +67,11 @@ nav a.current {
 
 main{
     text-align: center;
-    color: black;
+    color: white;
 }
 
 footer {
-    background-color: #A60640;
+    background-color: #13678A;
     color: white;
     padding: 10px;
     text-align: center;
