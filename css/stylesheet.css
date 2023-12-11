@@ -1,16 +1,55 @@
 html, body {
-    height: 100;
+    height: 100%; /* Corrected the height value */
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Space Grotesk';
     font-size: 22px;
 }
 
+
+header {
+    background-color: #A60640;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #D22E45;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Apply transition on background color */
+}
+
+nav a:hover {
+    background-color: #F28323; /* Change background color on hover */
+}
+
+nav a.current {
+    background-color: #F28323; /* Style for the current page */
+}
+
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/heroimage.jpeg");
-    height: 100%;
+    background-image: url("images/heroimage.jpeg"); 
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,8 +65,30 @@ body{
     color: white;
 }
 
-/*
 main{
+    text-align: center;
+    color: black;
+}
+
+footer {
+    background-color: #A60640;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/*
+
+.hero-image { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/heroimage.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text { 
     text-align: center;
     position: absolute;
     top: 50%;
@@ -35,4 +96,13 @@ main{
     transform: translate(-50%, -50%);
     color: white;
 }
-/*
+
+.hero-text main {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+*/
